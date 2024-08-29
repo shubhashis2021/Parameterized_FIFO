@@ -118,7 +118,7 @@ typedef enum logic [1:0]{
      ST_POP=2'b01,
      ST_BOTH=2'b11 
 
-} case_t;
+} state_t;
 
 
  localparam ptr_w=$clog2(depth);
